@@ -1,0 +1,9 @@
+sample_name,group
+# 示例样本（请用你自己的样本替换以下各行）
+# 第一列为样本名，须与 input/ 目录下的 <样本名>_R1.fq.gz / <样本名>_R2.fq.gz 对应
+# 第二列为分组标签（如 healthy / disease / 任意自定义），仅用于注释，不影响分析
+# 若已有比对好的 BAM，可设 SKIP_ALIGN=true，此时只需保证 alignment/<样本>.sorted.bam 存在
+GR-1,healthy
+GR-2,healthy
+T2D-1,disease
+T2D-2,disease
